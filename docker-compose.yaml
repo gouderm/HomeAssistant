@@ -38,6 +38,7 @@ services:
       - mosquitto
     environment:
       TZ: "Europe/Madrid"
+    user: "${LOCAL_USER}:${LOCAL_USER}"
     restart: unless-stopped
   mosquitto:
     image: eclipse-mosquitto
