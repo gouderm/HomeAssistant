@@ -1,0 +1,6 @@
+hass-config/.HA_VERSION
+hass-config/.storage/
+hass-config/home-assistant.log
+hass-config/home-assistant.log.1
+hass-config/home-assistant.log.fault
+mariadb/
