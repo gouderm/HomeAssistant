@@ -15,8 +15,6 @@ panel_iframe:
     icon: mdi:shuffle-variant
     url: http://0.0.0.0:1880/
     require_admin: true
-mqtt:
-  broker: 0.0.0.0
   
 recorder:
   db_url: mysql://homeassistant:ha_dbdatabasepassword@0.0.0.0/ha_db?charset=utf8
